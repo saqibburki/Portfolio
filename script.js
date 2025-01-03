@@ -40,7 +40,7 @@ function toggleBackground() {
     } else {
         // Switch to Light Mode
         body.classList.remove('bg-gray-950');
-        body.classList.add('bg-white');
+        body.classList.add('bg-gray-100');
         
         // Update text colors
         textElements.forEach(element => {
